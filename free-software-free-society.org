@@ -1,0 +1,80 @@
+Free Software, Free Society
+
+* Introduction
+** Computers increasingly define and control our life
+** Computers are controlled by code
+** Control over code grants control over our lives
+** What control should we have over this code?
+** Free as in beer vs. free as in speech
+** Free software was once the status quo
+** Proprietary software is the newcomer but has support from big business
+** Analogy to freedom in the legal system
+Laws, legal briefs, judge's opinions are freely available, redistributable, and quotable
+Transparency
+** Copyleft
+*** Uses copyright law to guarantee freedoms
+*** Example copyleft license is the GNU GPL
+*** Copyleft has it's detractors
+**** Some concern that the license is coercive
+**** It has been termed by Microsoft as a "viral" license because it "infects" code that it touches
+** Lawyers have incentives to produce good legal briefs even though they don't control reproduction of them
+*** They get paid to represent clients
+*** Clients benefit from the briefs
+*** Exclusivity of briefs does not offer the client additional benefit
+*** Having briefs be open makes them more valuable to society
+** We could imagine a society without a transparent legal system, but it could not be considered free
+** Other examples: jazz, novels, architecture
+* Chapter 1: The GNU Project and Free Software
+** In the beginning, software was shared
+** Free software was the norm
+** They got a new computer, which had it's own non-free operating system
+** The new computer's operating systems required a non-disclosure agreement to get an executable copy
+** The proprietary systems did not allow sharing or helping others
+** Only the manufacturer could make changes to the new system
+** Manufacturers make certain assumptions when advocating proprietary software:
+*** They have a natural right to own software and thus have power over it's users
+**** US constitution and legal tradition rejects this view
+**** The purpose of copyright is to encourage the creation of new public-domain works by providing a temporary monopoly
+*** The only thing important about software is what it allows you to do - social concerns are irrelevant
+*** That useful or necessary software would not exist if manufacturers could not exert control over users
+**** The existence of free software seems to cast doubt on this assumption
+** RMS was unable to get source code the printer's control program, so couldn't add features he wanted
+** RMS concluded that it was necessary for him to develop free software to once again give users freedom
+** RMS concluded that the first thing he needed to develop was an operating system
+** Definition of Free Software: You have the freedom to
+*** Run the software for any purpose
+*** Modify the program to suit your needs (in practical terms, this means source code must be available)
+*** Freedom to redistribute copies (gratis or for a fee)
+*** Freedom to distribute modified copies
+** RMS started with GNU Emacs
+*** Based on the PDP-10 Emacs
+*** He sold copies for $150
+** Free software does not necessarily stay free
+*** If it is under a permissive license, people can release a modified version under a proprietary license
+*** Occurred with the X Window System
+*** There is some debate over whether permissive or copyleft software is more free
+*** Permissive licenses give the user more freedom, but do not guarantee those freedoms for modified versions
+** The Free Software Foundation is a non-profit organization which supports the work of the GNU Project
+** It is possible to make money selling services relating to free software
+*** Teaching
+*** Software Development
+** LGPL allows the user to link a library with proprietary packages
+*** Prohibiting this would have been onerous and prevented adoption of the library
+*** The library itself is still copylefted
+*** LGPL is not the best choice for every library
+** Eric S. Raymond says that "every good work of software starts by scratching a developer's personal itch"
+*** RMS disagrees
+*** Much GNU software was driven by ideals
+*** Much software is developed for prestige within the open source community
+*** Example of documentation: developers hate doing it but popular open source projects have tons
+** Eventually, the only piece of the GNU operating system that was not complete was the kernel
+*** They were working on HURD - we're still waiting for that one
+*** Linux came along and filled the need
+*** The combined system is referred to as GNU/Linux, but many just refer to it as Linux (there is some controversy over this)
+** There are challenges
+*** Manufacturers often do not provide specifications openly, so developing drivers is harder
+*** Non-free libraries lure people with promises of easy functionality, but prevent release as free software
+*** Software Patents can put techniques off-limits until they expire
+**** Particularly problematic with software since independant reinvention is extremely common
+*** Documentation
+**** RMS describes it as lacking, though the situation is better today

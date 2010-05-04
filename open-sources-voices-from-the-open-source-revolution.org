@@ -1,0 +1,38 @@
+Open Sources: Voices from the Open Source Revolution
+
+* Linus Pauling vs. Watson and Crick
+** Watson and Crick first figured out the structure of DNA
+** There was competition between Watson/Crick's lab and that of Linus Pauling
+** Watson and Crick tried to keep it a secret, but this stifled scientific progress
+* Science is Open Source
+* There is profit in keeping secrets, but it is harmful to society
+* RMS wanted free software and promoted it's benefits for freedom
+* Businesses were not that interested in the freedom aspects
+* A new marketing campaign was created with the term "Open Source"
+* The Open Source definition is not as strict as the GNU GPL
+* Industry can provide a great dea of funding for research, but they have vested interests
+* Some companies make money from Open Source, such as Red Hat
+** Money can be made from offering convenience, service, and support
+** Sendmail offers a proprietary version, and an open source version that lags one year behind
+* Open Source supports innovation
+** Sharing makes software more robust
+** Given enough eyeballs, all bugs are shallow
+** Minimizes duplication of effort
+** Someone can pick up where another leaves off
+*** This is a common issue in software development - a persons interest and passion wanes after a while
+* Open Source is doing very well in the server space
+** Apache controls over half the web serving market
+** Microsoft claims over half
+*** But they exclude open source solutions
+*** In total they control 20%
+** Proprietary *NIXes are struggling against Linux
+* There is a risk of forks
+** Sufficiently open development processes reduce the incidence of detrimental forks
+* Many Open Source developers get a reputation from their work
+** This benefits them in finding jobs
+** They also like te ego stroking
+** Developers can be passionate about the project and not feel "forced" to do it
+* Open Source may be an area of great investment in the future (as of writing, hasn't materialized to the extent the author suggests)
+* The Internet has made information sharing much easier
+** This has benefitted Open Source greatly
+** Open Source may be an idea whose time has come
