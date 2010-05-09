@@ -1,0 +1,14 @@
+Free as in Freedom
+
+* Chapter 1: For Want of a Printer
+** RMS had a problem with the printer jamming
+** The previous printer had a feature which sent a message to users when the printer jammed, and sent messages to a user when their print job finished
+** They got a new printer which did not have this feature
+** Because the software was proprietary, RMS could not add the feature
+** Sharing of software reduced rework in the AI Lab
+** RMS expected that he would be able to get the source for the printer software
+** RMS also had a bad experience earlier with the author of Scribe, who made a program which deactivated itself after a duration - similar to limited time shareware
+** RMS sought out a professor who had access to the source - but the prof. claimed to be under a NDA
+** RMS considers this a turning point
+** Much commentary on the refusal to share software being morally wrong
+** RMS decided never to victimize others by signing a NDA
