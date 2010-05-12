@@ -18,6 +18,7 @@ Various Readings for May 12th
 **** Sometimes there are legal restrictions that restrict export - these cannot be conditions on redistribution
 *** The freedom to redistribute modified copies (access to the source code is a precondition for this)
 **** Obfuscated source code does not count
+** Does not require that free software be copylefted
 * The Right to Read
 ** Dan's friend's computer is broken down
 ** She needs to borrow a computer to finish her midterm project
@@ -49,7 +50,7 @@ Various Readings for May 12th
 ** The length of the protected term for copyright is too long to realistically increase the incentive to produce new works
 ** The reach of copyright has been extended beyond the borders of it's official juristiction (Russian programmer arrested because he made a program in Russia that was legal there)
 ** Duration is an important consideration
-*** Currently it is very long
+*** Currently it is very long (Mickey Mouse laws)
 *** 10 years is suggested
 **** Most benefit realized in early years
 **** Often out of print by 10

@@ -1,4 +1,4 @@
-Various Readings for May 10th
+Figures in the Free and Open Source Software Movement
 
 * Richard Stallman
 ** Is a software freedom activist, programmer

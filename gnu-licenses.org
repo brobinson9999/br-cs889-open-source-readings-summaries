@@ -1,0 +1,51 @@
+Free and Open Source Licences
+
+* Copyleft Licenses
+Copyleft licenses must be distributed with the same provisions intact - you cannot make a copylefted program non-copyleft. (unless you are the copyright holder)
+** GNU GPL
+*** Copyleft license used by the GNU project and many others
+*** Carefully crafted to have strong legal foundations
+*** Does not require modified versions used privately or their source be released
+*** If a modified version is distributed, source must be provided
+*** You are not required to redistribute GPLed software if you don't want to
+*** Assigning copyright makes it easier to enforce the licence, but it is not required
+*** Changes in GNU GPLv3
+**** Legal developments have forced updates to the GPLv2 to deal with emerging threats
+***** Tivoization
+****** The use of hardware restrictions to prevent the freedoms associated with free software from being exercised.
+****** The GPLv3 has been extended to require that the information required to run a modified version must be provided.
+****** That information must include anything necessary to bypass remote attestation
+***** DMCA et al
+****** These laws prohibit breaking DRM or other attempts to restrict the user.
+****** These mechanisms can limit the use of free software, restricting user's rights.
+****** GPLv3 contains a provision stipulating that if DRM covered by the GPLv3 is broken, then it does not qualify as effective protection under the DMCA
+****** As a result one cannot use the DMCA against someone who has used GPLed DRM systems
+****** This does not forbid the creation of DRM systems
+***** Patent deals: After the Novell patent deal, the GPL needed to be updated to prevent such patent deals in the future
+****** A patent licence is granted to anyone that gets the licensed software
+****** Some countries have interpreted GPLv2 to have this characteristic implicitly
+**** Affero GPL requires source is available for network-connected services such as web services
+** GFDL
+*** GNU Free Documentation Licence
+*** Similar to GPL, but omits many clauses specific to software
+*** Because documentation can be modified directly, the requirement for source code is not as important
+*** The GFDL also makes a provision for invariant sections that cannot be changed
+** GNU LGPL
+*** The LGPL is a weakened version of the GPL
+*** Most provisions of the LGPL remain intact but the program can be linked with proprietary software
+*** Changes to the library itself are still covered by the GPL
+*** Does less to protect the freedoms of users
+*** For strategic reasons, it is sometimes a better choice
+*** Using the GPL for libraries gives an advantage to those who produce free software
+* Permissive Licenses
+** Permissive licenses do not prevent future versions from being proprietary
+** Permissive Licenses can have some restrictions
+** BSD License
+*** Allows redistribution if the following is included
+**** The original copyright notice
+**** A disclaimer of liability
+**** A notice of the two conditions for distribution
+***** You cannot claim you wrote the software if you did not write it
+***** You cannot sue the developer if the software does not work as expected
+**** There was an advertising clause originally, but it became onerous when everyone who contributed wanted to be acknowledged
+
