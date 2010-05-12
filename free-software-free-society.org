@@ -78,3 +78,15 @@ Transparency
 **** Particularly problematic with software since independant reinvention is extremely common
 *** Documentation
 **** RMS describes it as lacking, though the situation is better today
+* Chapter 2: The GNU Manifesto
+** Wants a system compatible with Unix, but not Unix itself
+** A system compatible with Unix will be more readily adopted
+** Originally wanted to support Lisp as a system language
+** Some money can be made this way, but less than proprietary software
+** Building the community provides its own rewards
+** A free system will reduce duplication of effort in systems programming
+** With a free system, you can hire anyone to fix your software problems or build enhancements
+*** This is very useful in developing nations where skilled labor is cheap and developed nations may not be interested in the features those users require
+** Some want to have control over their own ideas
+** But this equates to control over other people's lives
+
