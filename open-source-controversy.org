@@ -1,0 +1,14 @@
+Controversy over the "Open Source" Movement
+
+* The freedoms espoused by the free software movement are important because they promote solidarity and sharing with your neighbor
+* The Open Source marketing campaign has caused a lot of people to use free software, but they are not aware of the ethical underpinnings that are associated with the free software movement
+* Some people prefer the term open source
+** It avoids confusion between gratis and libre
+** It appeals more to business
+* Open Source focuses on free software as a methodology for producing better software
+* The term open source has also been stretched beyond it's intended meaning
+* The two camps often work together, but sometimes disagree
+* Open source DRM is an example where the camps do not agree
+** The open source methodology may result in more powerful and reliable software, but since the software is designed to restrict it's users, it only becomes more effective at that task
+* Open source has had the effect of reaching more people
+* Once people are comfortable with open source, it may be easier to transition them to free software

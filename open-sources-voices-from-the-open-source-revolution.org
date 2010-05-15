@@ -62,3 +62,7 @@ Open Sources: Voices from the Open Source Revolution
 ** The less extreme position of Open Source was favored by some over the more philosophical Free Software
 ** GUIs may be the factor limiting adoption of open source software
 * The Open Source Definition
+** Open Source gives software a longer usable life and allows users to always access the latest versions
+** The Open Source Definition is a bill of rights for the computer user
+** These rights keep contributors on a level playing field
+** The success of open source is partially because the software can be copied at little cost
