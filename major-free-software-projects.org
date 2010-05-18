@@ -1,0 +1,36 @@
+Major Free/Open Source Software Projects
+
+* Debian
+** Debian is a GNU/Linux distribution
+** The Project is considering other kernels such as the HURD
+** The Project has committed to abide by the Debian Social Contract
+*** Debian will remain 100% free (libre)
+*** We will give back to the free software community
+*** We will not hide problems
+*** Our priorities are our users and free software
+*** Support the availability of works that do not meet our free software standards (though they are not part of the Debian system)
+** Bruce Perens was the project leader for a time
+** Formed the basis for Ubuntu
+** Provides it's own modified versions of Firefox and Thunderbird
+* Mozilla Project
+** The Mozilla Foundation is a non-profit organization which sets policies, operates key infrastructure, and controls the trademarks associated with the Mozilla Project
+** The Mozilla Foundation owns two for-profit subsidiaries
+*** Mozilla Corporation, which hires developers and coordinates releases of Firefox
+*** Mozilla Messaging Inc., which primarily develops Thunderbird
+** Mozilla Europe, Mozilla Japan, and Mozilla China also exist
+*** They are non-profit organizations whose mission is to help promote and deploy Mozilla products and projects
+*** They are independant of the Mozilla Foundation
+
+* The GIMP (GNU Image Manipulation Program)
+** The vision is to become a high-end graphics application
+** Often compared unfavorably to Photoshop
+** There are many variants of GIMP
+** GIMP was used to draw the original Tux
+* Blender
+** Blender is a 3D graphics application similar to 3D studio
+** Available on a number of operating systems
+** Supports Python for scripting
+** Originally was in-house, but it was open sourced for a fee of 100 kEuros
+** Has low system requirements
+** Advanced in some ways but lags behind competing products in other areas
+** Some major projects have been developed using Blender

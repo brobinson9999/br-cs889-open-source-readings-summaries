@@ -1,0 +1,8 @@
+GNU/Linux Naming Controversy
+
+* Names are important because they affect the way we think about things
+* Some people consider the name irrelevant
+* Some want GNU recognized in the name for the part it has played
+* There are still challenges for free software and the GNU project wants to continue raising awareness
+* The name Linux is not particularly tied to the free software ideals
+* Linux is only one part of the system

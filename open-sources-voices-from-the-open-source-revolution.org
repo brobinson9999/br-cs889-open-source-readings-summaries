@@ -66,3 +66,41 @@ Open Sources: Voices from the Open Source Revolution
 ** The Open Source Definition is a bill of rights for the computer user
 ** These rights keep contributors on a level playing field
 ** The success of open source is partially because the software can be copied at little cost
+* A Brief History of Hackerdom
+** Lots of historical details aready covered
+** ESR describes LISP as an AI language :[
+* Twenty Years of Berkeley Unix
+** An early Unix was installed at Berkeley
+** There were bugs, and Berkeley and Bell cooperated to improve the system
+** A Pascal system and an editor called ex were also developed
+** These were distributed by the "Berkeley Software Distribution"
+** Eventualy, vi was written
+** On a later version of Unix (with new hardware) they developed a virtual memory system
+** Eventually, Bell was no longer doing Unix research
+** Once again, new hardware was needed, and with it, a need to port software
+** Berkeley took on the further development of Unix
+** At some points, the BSD system was more popular than the commercial System V, but users usually switched back when System V caught up again
+** BSD source was available under liberal licensing terms
+** They sold copies, but it was also available for free from people who already had a copy
+** People bought it anyway, which helped to support the work
+** They got contributors to rewrite many utilities, which allowed them to release more complete source code
+** The flood of patches and contributions became too much for one person to bear, and the NetBSD group took over handling the updates
+** NetBSD went after the hardcore users
+** FreeBSD formed shortly after and targetted more mainstream users
+** OpenBSD eventually spun off from NetBSD with a focus on security
+** There was eventually a suit against a distributor of a BSD based system which used the Unix name in advertisements
+** BSD has formed the basis for many proprietary *NIXes, including Mac OS X
+* The Linux Edge
+** Linux is widely used in a variety of appications
+** Linux has succeeded because of it's design principles and development model
+** It is the most widely ported operating system available on PCs, but it was not planned that way
+** Linux is compatible with Unix, and follows the Unix heritage, but is not part of the Unix family tree
+** When Linux was developed, microkernels were thought to be the key to a portable OS
+** Linux did not use the microkernel model
+** We're still waiting on mature microkernels... :S
+** Creating portable code does not require an abstraction layer, just intelligent programming
+** Adding new interfaces is risky because you can never get rid of them
+** Some ugly interfaces were inherited from Unix
+** The kernel is pretty mature and most new progress is expected in user space
+** Sometime somene may make a new OS with binary compatibility that eventually replaces Linux without the unnecessary baggage
+

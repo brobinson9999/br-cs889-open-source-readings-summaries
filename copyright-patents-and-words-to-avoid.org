@@ -90,7 +90,7 @@ In English, the terms for free of cost and providing freedom are synonyms. This 
 ** Hacker
 Although a useful term, it has come to be misunderstood as one who breaks security. Because of the potential for confusion, the term should be avoided.
 ** Intellectual Property
-See above.
+"Intellectual property" purports to be a catch all term for trademarks, patents, and copyright. However, these three sets of laws developed independantly and do not have a common basis. The term "intellectual property" distorts the issues by making an analogy to physical property. The term intellectual monopoly priviledges, (IMPs) has been suggested instead.
 ** LAMP System
 This term has the same issue as the use of the term Linux to refer to GNU/Linux based systems - it excludes the GNU project from it's name. Some people consider this a problem but the GNU/Linux name is controversial.
 ** Market
