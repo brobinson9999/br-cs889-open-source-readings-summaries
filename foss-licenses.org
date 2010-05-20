@@ -25,6 +25,7 @@ Copyleft licenses must be distributed with the same provisions intact - you cann
 ****** A patent licence is granted to anyone that gets the licensed software
 ****** Some countries have interpreted GPLv2 to have this characteristic implicitly
 **** Affero GPL requires source is available for network-connected services such as web services
+**** "Leniency" clause gives 60 days to come into compliance
 ** GFDL
 *** GNU Free Documentation Licence
 *** Similar to GPL, but omits many clauses specific to software
@@ -36,6 +37,8 @@ Copyleft licenses must be distributed with the same provisions intact - you cann
 *** Changes to the library itself are still covered by the GPL
 *** Does less to protect the freedoms of users
 *** For strategic reasons, it is sometimes a better choice
+**** It is more likely to convert people to a free licence than the GPL
+**** Contributions may still be made to the license itself
 *** Using the GPL for libraries gives an advantage to those who produce free software
 * Permissive Licenses
 ** Permissive licenses do not prevent future versions from being proprietary
@@ -48,4 +51,3 @@ Copyleft licenses must be distributed with the same provisions intact - you cann
 ***** You cannot claim you wrote the software if you did not write it
 ***** You cannot sue the developer if the software does not work as expected
 **** There was an advertising clause originally, but it became onerous when everyone who contributed wanted to be acknowledged
-

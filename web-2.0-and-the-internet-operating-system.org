@@ -1,0 +1,14 @@
+Web 2.0 and the Internet Operating System
+
+* Web 2.0
+** Web 2.0 is a buzzword referring to a variety of new styles of web sites and services
+** The focus of web 2.0 is more on the users than the publishers
+** Tim O'Reilly seems to use the term as a catch-all for a variety of unrelated developments which have turned out well, and uses this as an argument for why Web 2.0 is a great thing
+** But, it seems like it is only so because of how he has defined it
+** Tim believes the value is in controlling the databases which provide information to web apps and mashups
+* Internet Operating System
+** With web apps, the major resources for performing some operation are not on the user's machine
+** Tim argues that this implies the operating system is something different from what we are used to
+** Web services may provide an abstraction over information services
+** Some devices give limited access to the web to lock in the user to their services
+** Small pieces, loosely joined may be more successful than one megalithic platform

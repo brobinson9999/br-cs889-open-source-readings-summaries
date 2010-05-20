@@ -103,4 +103,10 @@ Open Sources: Voices from the Open Source Revolution
 ** Some ugly interfaces were inherited from Unix
 ** The kernel is pretty mature and most new progress is expected in user space
 ** Sometime somene may make a new OS with binary compatibility that eventually replaces Linux without the unnecessary baggage
+* Hardware, Software, and Infoware
+** Web sites are becoming like applications
+** One might dub them "information applications" or "infoware"
+** Tim O'Reilly makes many sweeping generalizations about web sites vs. applications
+*** He seems to be suggesting that desktop apps have esoteric interfaces, while web sites have easy interfaces
+** The paradigm shift to the web may benefit Open Source since much of the Web's technologies are open
 
