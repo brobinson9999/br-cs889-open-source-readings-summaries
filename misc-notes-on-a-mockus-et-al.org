@@ -1,0 +1,5 @@
+Miscellaneous Notes on Papers by Audris Mockus et al.
+
+* Mockus identifies that in OSS projects, there is no project plan, schedule, or list of deliverables
+(Related - there is no explicit system-level design, or even detailed design [Vixie 1999]
+I think that this is not necessarily standard across all open source projects. Certainly, many open source projects are developed this way, but so are many proprietary projects. Some open source projects (such as Chandler, much as I loathe to use that example) do have significant levels of design.

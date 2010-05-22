@@ -20,7 +20,12 @@ Major Free/Open Source Software Projects
 ** Mozilla Europe, Mozilla Japan, and Mozilla China also exist
 *** They are non-profit organizations whose mission is to help promote and deploy Mozilla products and projects
 *** They are independant of the Mozilla Foundation
-
+** Mozilla initially had difficulty attracting enough contributors
+** Early expectations may have been set too high
+** Participation started to increase when documentation, tutorials, and development processes refined
+** mozilla.org gives only limited commit access and retains the right to remove comitters
+** Mozilla enforces module ownership
+** The level of productivity in the Mozilla project appears to be as good or better than commercial projects
 * The GIMP (GNU Image Manipulation Program)
 ** The vision is to become a high-end graphics application
 ** Often compared unfavorably to Photoshop
@@ -34,3 +39,21 @@ Major Free/Open Source Software Projects
 ** Has low system requirements
 ** Advanced in some ways but lags behind competing products in other areas
 ** Some major projects have been developed using Blender
+* Apache
+** Open source is often characterized as a fundamentally new way of producing software
+** Open source may pose a serious challenge to the commercial software businesses that dominate most software markets today
+** Apache is the most widely deployed web server
+** There are several avenues for reporting bugs
+*** The mailing list is most used
+*** The bug tracking system is occasionally used, but usually it is an individual triaging new bug reports and forwarding the major ones to the mailing list
+*** A newsgroup exists but has a poor signal to noise ratio
+** Most work is done by the core developers
+** There is a large number of minor contributors
+** The effect is lesser but still noticeable when only bug fixes are considered
+** Proprietary software shows a similar curve
+** Apache developers appear to be almost as productive as full time developers on proprietary software
+** Core developers tend to work on problems that are identified with areas of the code with which they are most familiar
+** New developers tend to pick up where someone else has left off, or in a new area that is under development
+** When multiple potential solutions exist, the core developer usually forwards options to the mailing list to get feedback
+** Each developer does their own testing
+** Changes are either committed immediately, then reviewed, or posted to the mailing list as a patch

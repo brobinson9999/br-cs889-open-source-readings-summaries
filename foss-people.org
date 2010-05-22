@@ -15,12 +15,17 @@ Figures in the Free and Open Source Software Movement
 ** Eric S. Raymond claims that RMS' philosophical hardline may have harmed the movement some
 * Eric S. Raymond
 ** Programmer and Open Source Advocate
-** Maintainer of the Jargon File
-** Author of The Cathedral and The Bazaar, an influential book in the open source movement
+** Became well known as maintainer of the Jargon File in 1990
+** Was maintainer of fetchmail and gpsd - a gps daemon
 ** Considered by some to be a spokesperson for the open source movement
+** Author of The Cathedral and The Bazaar, an influential book in the open source movement
+** Author of The Art of Unix Programming
 ** Also the author of other books
 ** Author of "Linus' Law", "Given enough eyeballs, all bugs are shallow."
-** Considered influential in the release of Netscape source code, though there is controversy as to how much of it was him
+** Considered influential in the release of Netscape source code
+*** ESR considers the release of Netscape source code one of his big accomplishments
+*** He claims it was fundamentally inspired by The Cathedral and the Bazaar
+*** There is controversy as to how much of it was due to ESR, and how much Netscape had come up with on their own
 ** Also coined many other terms such as "Release Early, Release Often" (Cathedral and the Bazaar)
 ** Published the Halloween Documents
 * Bruce Perens

@@ -1,0 +1,162 @@
+The Cathedral and the Bazaar
+By Eric Steven Raymond
+
+* Originally released in 1997
+** Has been updated since then
+** Most recent update in 2000
+* This paper has been influential in the methodologies used by open source development
+* Originally, ESR believed in the Unix philosophy
+** Small tools
+** "Do one thing, and do it well"
+** Rapid prototyping
+** Evolutionary development
+* ESR believed there was a certain level of complexity at which a centralized approach was needed - (big design up front)
+** in other words, big software needed to be built like cathedrals
+** planned and built by very high skilled individuals or small groups
+** occasional but polished, bug-free releases
+* The success of Linux was surprising, since it was both big and followed release early and often
+** conventional wisdom: this should fail and "fly apart in confusion"
+** this approach was more like a disorganized bazaar
+** differing agendas and objectives rather than a single clear and unified vision
+** seemed to be counter to the idea of a coherent and stable result
+** the fact that it seemed to be actually working was a shock
+* ESR ended up being the lead maintainer on an open source project, and decided to test his theory
+** He was using a POP3 client but it was missing a feature that he needed and he couldn't find any that had that feature
+*** 1. Every good work of software starts by scratching a developer's personal itch.
+*** 2. Good programmers know what to write. Great ones know what to rewrite (and reuse).
+**** even if you are eventually going to rewrite everything (as with Linux) there is benefit to starting with something that works
+** The closest one to what he wanted was fetchpop
+** He added his feature, and some other minor improvements, and they were accepted by the author
+** Then he ran into popclient, which lacked some features from fetchpop but was alot better written
+** He had to decide whether to switch or not
+** 3. "Plan to throw one away; you will, anyway." (Fred Brooks, The Mythical Man-Month)
+** So he switched
+** He sent patches to the maintainer of popclient, but that guy was no longer interested in popclient
+** They agreed that Raymond should take over popclient
+*** 5. When you lose interest in a program, your last duty to it is to hand it off to a competent successor.
+** with it, he inherited a user base
+** users are good because
+*** they show that what you are doing something right and serving a need
+*** properly cultivated, they can become co-developers
+*** if some users are hackers and source code is available, they can be effective co-developers
+**** this is very useful
+**** 6. Treating your users as co-developers is your least-hassle route to rapid code improvement and effective debugging.
+**** scales up well, as illustrated by Linux
+**** he says that he believes Linus' best hack was not Linux itself, but the Linux development method
+***** "I'm basically a very lazy person who likes to get credit for things other people actually do." - Linus Torvalds
+**** similar example with Emacs core vs. emacs lisp libraries
+***** because emacs lisp code could go through release/test/improve iterations quickly unlike emacs itself
+****  MATLAB is another example
+** to test his theory
+*** he released early and often
+**** generally at least once every ten days
+**** during heavy development, once a day
+*** he expanded his beta list by adding everyone who contacted him about fetchmail to it
+*** he sent chatty announcements to the beta list whenever he released, encouraging people to participate
+*** he listened to his beta-testers, polling them about design decisions and "stroking" them whenever they sent in patches and feedback
+** the payoff was immediate
+*** from the beginning, he got very high quality bug reports, often with fixes attached
+*** he got thoughtful criticism
+*** he got intelligent feature suggestions
+*** 10. If you treat your beta-testers as if they are your most valuable resource, they will respond by being your most valuable resource.
+**** many personal success coaches have espoused similar concepts
+** a user sent him scratch code for forwarding mail to the SMTP port
+*** this was a major improvement that Raymond just hadn't thought of
+*** it made the other delivery modes next to obsolete
+*** he considers this the single largest payoff he got from the bazaar model
+**** in the cathedral model, he probably would not have thought of this
+*** 11. The next best thing to having good ideas is recognizing good ideas from your users. Sometimes the latter is better.
+*** if you are completely truthful about how much you owe other people, the world at large will treat you as though you did everything yourself and are just modest
+*** 12. Often, the most striking and innovative solutions come from realizing that your concept of the problem was wrong.
+**** he was trying to solve the wrong problem by continuing popclient as a combined mail transfer agent and mail delivery agent with "special features"
+**** the idea to forward mail to the SMTP port made it a pure mail transfer agent
+**** this made it alot more simple and powerful
+**** crufty complex code disappeared
+**** it became more reliable
+** 13. "Perfection (in design) is achieved not when there is nothing more to add, but rather when there is nothing more to take away." (Antoine de Saint-Exupery)
+** it was now a category killer
+*** all competing programs became obsolete
+*** "you can't plan for this"
+* 7. Release early, release often. And listen to your customers.
+** some people believe this is bad except for trivial projects
+*** because these releases can be buggy and you don't want to wear out your users' patience
+*** but this means a long time between releases
+*** so you don't get as timely of feedback
+*** you can end up debugging things that are going to be removed or changed
+**** and these releases still aren't perfect
+*** frequent releases gives users the appearance of progress
+*** you have less to lose if a bug makes it out
+* 8. Given a large enough beta-tester and co-developer base, almost every problem will be characterized quickly and the fix obvious to someone.
+** Less formally - "Given enough eyeballs, all bugs are shallow." which he dubs Linus' Law.
+** the person who finds the problem may be different from the one who understands it, and maybe different from the one who figures out a resolution
+** claims that Linus' Law has been validated by the scale of the Linux project
+*** if it didn't hold, such a large project, worked on by so many people, with so many differing agendas and skill levels, should have collapsed under the weight of unforeseen interactions and "deep" bugs
+*** points also to the Delphi effect (the averaged opinions of a group of similar skill level is more reliable than that of any randomly chosen individual)
+** Linus' Law can be rephrased as "debugging is parallelizable"
+*** doesn't require coordination between debuggers
+*** doesn't fall victim to the complexity and management costs that make adding developers problematic a la Mythical Man Month
+*** there is some duplication of effort
+**** but experience has shown that this is only a minor cost
+** Maintainence cost is often about 40% of initial dev cost
+*** So claims ESR, these figures vary significantly but are usually high
+*** affected by number of users (more users find more bugs)
+*** some bugs are "deep" to some users but "shallow" to others
+**** if you have enough users it is often "shallow" to someone - based on that person's particular usage pattern
+* How Many Eyeballs Tame Complexity
+** bug reports turned in by non-source-aware users tend not to be as useful
+*** critical background data is omitted
+*** reliable method of reproducing is rarely included
+** the problem is a mismatch between the user and the developer's mental models of the program
+** in closed source development, they are stuck in these roles
+*** they don't communicate on the same wavelength
+*** open source development removes this limitation, allowing more effective communication
+** most bugs, most of the time, are easy to find given a suggestive characterization of the cause at a source-code level
+** core developer(s) time can be better used
+** traditional development organization tries to address Brook's Law: adding more developers to a later project makes it later
+*** complexity and communication costs go up with the square of the number of developers
+*** but this only occurs if the communication structure is a complete graph
+*** in open source projects, the communication structure interact with each other very little
+*** the full Brook's Law cost is only paid by the core developers
+** a bug with multiple symptoms but one code cause can be more easily identified than what appears to be multiple bugs from a user's perspective
+*** many people investigating a different symptom, even with less skill, can more quickly find the cause than a single skilled developer investigating an individual symptom
+**** one trace path is sometimes the easiest to find a bug with
+**** these searches occur in parallel and, once fixed, people stop working on the non-productive traces where the bug has stopped working
+**** even if they don't know exactly which fix addressed which bug
+** it's not only debugging that is parallelizable
+*** development and exploration of design space is too
+*** analogy to puddles finding a drain or ants finding food
+* 9. Smart data structures and dumb code works a lot better than the other way around.
+** Brooks states this as "Show me your flowchart and conceal your tables, and I shall continue to be mystified. Show me your tables, and I won't usually need your flowchart; it'll be obvious."
+** with the right abstraction, many problems become simple
+* Preconditions for the bazaar style
+** you can't build from the ground up in bazaar style
+*** it has to be something that has users
+**** for this it has to be runnable and testable and useful in some way
+** you have to be able to recognize good ideas from others
+** you have to be able to attract people, interest them, and keep them happy about the amount of work they're doing
+** technical skills help, but aren't the whole story
+** the personality you project helps
+* The bazaar model harnesses the full power of the "egoless programming" effect
+** this strongly mitigates the effects of Brook's Law
+* While coding is largely solitary, the great hacks come from harnessing the attention and brainpower of communities
+* Linus was one of the first people to learn how to play by the new rules pervasive Internet access made possible
+** This has allowed Linux to outpace closed development efforts
+** The "severe effort of many converging wills" is what a project like Linux requires
+* Analogy to adaptive systems
+** biology and economics
+** selfish agents attempt to maximize their own utility
+** produces a self-correcting spontaneous order more elaborate and efficient than central planning can achieve
+** connects the selfishness of individual hackers (ego-wise) to difficult ends that can only be achieved by sustained cooperation
+** documentation is an example
+*** developers hate doing it, but Linux has more documentation than commercial software
+* 19. Provided the development coordinator has a communications medium at least as good as the Internet, and knows how to lead without coercion, many heads are inevitably better than one.
+** no closed-source developer can match the pool of talent that the Linux community can bring to bear on a problem
+*** fetchmail alone has over 800 contributors
+*** as of the writing, the # of contributors increased at about 200/year
+* Example of emacs
+** has developed a unified architectural vision despite high turnover
+** no closed source editor has matched the longevity of emacs
+* Example of netscape
+** release was fundamentally motivated by this paper
+** it was a major test of the bazaar model
+** created firefox - probably the best browser but I'll let others decide for themselves
