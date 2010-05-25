@@ -26,6 +26,7 @@ Copyleft licenses must be distributed with the same provisions intact - you cann
 ****** Some countries have interpreted GPLv2 to have this characteristic implicitly
 **** Affero GPL requires source is available for network-connected services such as web services
 **** "Leniency" clause gives 60 days to come into compliance
+*** The GNU GPL is the most popular free/open source software license
 ** GFDL
 *** GNU Free Documentation Licence
 *** Similar to GPL, but omits many clauses specific to software

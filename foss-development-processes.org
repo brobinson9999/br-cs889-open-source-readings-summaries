@@ -1,0 +1,55 @@
+Characteristic Development Practices in the F/OSS Community
+
+* Motivations for Free and Open Source Software Development
+** Fun or Personally Rewarding
+** Improve Skill
+** Reputation
+** Contribution/Philanthropy
+** Career Advancement
+** Ideological Beliefs
+*** Freedom of Expression
+*** Freedom of Choice
+** Social Networking
+** Use of F/OSS for work, and fixing bugs that would have to be fixed for work or adding features to make work easier
+* Requirement Specifications are usually less formal than corporate software development efforts
+* Highly distributed collaborative development
+** Using simple, already existing communications methods
+** Common means of communication
+*** Mailing Lists
+*** Forums
+*** Newgroups
+*** IM or IRC
+*** Use cases as web pages
+*** How-tos and Tutorials
+*** Wikis
+*** Tradiaional Documentation
+*** External Publications
+*** Web Portals for locating all of these resources
+** Communication also occurs through the artifacts themselves
+** An understanding of the hybridization of artifacts and dialogue is essential to accurate analysis of the collaboration in Open Source projects
+* Socialization
+** Socialization of Newcomers is crucial
+** Projects which fail to attract and retain new contributors rarely get far
+** Contributors eventually lose interest, so some turnover is necessary
+** Managing the turnover is essential to prevent the project from faltering
+** May bear resemblance to an apprenticeship in some ways
+** Many of the aspects of apprenticeship that are considered crucial are missing
+** There appears to be little teaching as one would expect in an apprenticeship - new contributors must learn from observation
+** Often modelled as a skill-based meritocracy
+** To gain influence over a FOSS project, one must understand the social network in place
+** The social network is often not easily discovered
+*** lurking can help
+* Skill-based meritocracy
+** People self-select for FOSS projects
+** Pre-existing skills are usually required
+** Those with the skills tend to have more clout
+** Developers tend to self-organize around the expertise, reputation, and accomplishments of core developers
+** Ideology can sometimes also play a part
+** May not properly resemble either the Cathedral or Bazaar models
+** There is some political manuevering involved, so the pure meritocracy model may be over-simplified
+** A poular view supports a linear progression from role to role based on the quality of code contributions
+**** this view has been criticized
+**** some people fail to progress by pushing too fast
+**** some have onerous personalities or clash with others on the project
+**** not all contributors wish to become a core developer
+**** most people do not evolve beyond the level of bug reporter
