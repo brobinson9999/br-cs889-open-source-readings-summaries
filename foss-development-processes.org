@@ -1,8 +1,14 @@
 Characteristic Development Practices in the F/OSS Community
 
 * Motivations for Free and Open Source Software Development
+** The Software is needed for personal use
+*** Raymond describes this as a common source
+*** There are many cases where a F/OSS project was not started for personal use
 ** Fun or Personally Rewarding
-** Improve Skill
+** Improve Skill/Learning
+*** This learning can take the form of learning from other developers
+*** It can also take the form of learning for one-self by developing something related
+*** Developers can also learn tacit knowledge that is not provided in written tutorials or other such resources
 ** Reputation
 ** Contribution/Philanthropy
 ** Career Advancement
