@@ -59,3 +59,11 @@ Characteristic Development Practices in the F/OSS Community
 **** some have onerous personalities or clash with others on the project
 **** not all contributors wish to become a core developer
 **** most people do not evolve beyond the level of bug reporter
+* Open Bug Reporting
+** In Open Bug Reporting systems, most bug reports are not useful
+** Most useful reports come from a small number of good reporters
+** It appears the advantage of an open bug reporting system is in cultivating good reporters, rather than mass involvement
+** Non-power users reports included a lot of duplicate reports or ones that were not as useful
+** The better non-power user reports for Firefox occurred before the 1.0 release
+** Some power-users made requests for narrow use cases
+** It appears that many users did not attempt to fix the problem themselves before reporting a bug

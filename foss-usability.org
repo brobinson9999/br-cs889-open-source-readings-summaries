@@ -1,0 +1,48 @@
+F/OSS and Usability
+
+* F/OSS can benefit from the skills of usability specialists
+** Much F/OSS is developed with the interface that the developer themself would use
+** The usability tends to be focused on expert users who do cool things with the software rather than beginners
+** Beginner usability can be a bigger influence on uptake
+** Even experienced users can have problems with pieces of F/OSS that they are not familiar with
+** There is a tendancy to flame users who complain about usability
+** Usability needs to be considered from the beginning
+** It has been argued that developing highly usable software is "an order of magnitude" more difficult
+* F/OSS processes may not be conducive to traditional usability engineering methodologies
+** Few experienced HCI professionals work on F/OSS projects
+** Despite this, every developer tends to have an opinion on the interface - too many cooks in the kitchen!
+** Clout in project discussion often correlates with patches provided, and HCI professionals do not focus on producing code
+** Usability is usually only sought after the interface has already been designed
+** Target audience is often unclear
+** Little interest in following heavyweight usability methodologies
+** Developers self-select for tasks, and usability is not that attractive to many developers
+** Because people have different preferences, there is a tendency to add many unnecessary preferences to accomodate everyone
+*** this makes it hard to find the preferences you need
+*** it is also harder to test and debug, and there is more code complexity
+*** It is hard to get rid of crufty features without offending the people who deveoped it
+** Some of the F/OSS motivation is related to recognition from peers, and there may not be enough usability expert peers to attract other usability experts
+* Why F/OSS Usability tends to lag
+** Volunteer-produced software in general tends to have this property
+** Weak incentives for increased usability
+*** If it is software to scratch a personal itch, the developer understands the esoteric interface
+*** Usability is not interesting to many volunteer developers and they self-select tasks, so few choose the usability projects
+*** Proprietary software makers make more money if software is more usable - more users for F/OSS means more bugs and maintainence work
+** Many programmers are not good usability designers
+** Design suggestions are often not invited or welcome
+** Usability is hard to measure
+** Coding Before Design
+*** Much F/OSS software is coded without a thorough design being done first
+*** Software designed first tends to be more usable
+*** There is often an intention to "add the interface" later
+** Imiatation of Microsoft or Apple
+*** This is not because F/OSS developers are not creative, but because users expect something that behaves the same
+*** If they want people to switch, they have to have a similar interface
+** People may complain if the interface is changed
+*** eg, the adoption of the "Ribbon" in OpenOffice
+** Mediocrity through Modularity
+*** There is a temptation to build everything as reusable libraries that a front end can be tacked on to
+*** However, these modules often have poor integration
+*** Libraries are rarely designed with usability in mind
+**** eg, if a progress bar is needed, you need feedback from the library to implement it, lest you be stuck with a throbber
+* F/OSS usability may be one reason for a relative lack of adoption of F/OSS
+* Usability and Open Source Software advocates a usability reporting tool like crash reporting
