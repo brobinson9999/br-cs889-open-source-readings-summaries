@@ -21,6 +21,18 @@ F/OSS and Usability
 *** it is also harder to test and debug, and there is more code complexity
 *** It is hard to get rid of crufty features without offending the people who deveoped it
 ** Some of the F/OSS motivation is related to recognition from peers, and there may not be enough usability expert peers to attract other usability experts
+** Project members tend to hand an understanding of usability that is similar to that of HCI experts
+** It may be necessary to reconceptualize existing HCI techniques to better fit within the development approach and motivation systems prevalance in F/OSS development
+*** One such technique may be design-by-blog
+**** An idea is proposed on a personal blog
+**** The merits of the idea are discussed in the comments
+** Some F/OSS developers believe it is important to discover user needs, while others believe that these needs come passively through bug reports and feature requests
+*** This is interesting though, since it presupposes that users know what kinds of features will best satisfy their needs
+*** To some extent it seems to think in terms of features rather than the problems the user has
+** It can be difficult to get at the real problems that the user has
+*** Their description of the issues may be vague, such as "I've tried X and Y, and Y is better."
+** Some F/OSS developers may not want a usability expert involved, out of concern that the involvement of an expert may override the democratic decision making process of the project
+** Usability recommendations may not fit well within the short iterations favored by some F/OSS projects
 * Why F/OSS Usability tends to lag
 ** Volunteer-produced software in general tends to have this property
 ** Weak incentives for increased usability
@@ -46,3 +58,12 @@ F/OSS and Usability
 **** eg, if a progress bar is needed, you need feedback from the library to implement it, lest you be stuck with a throbber
 * F/OSS usability may be one reason for a relative lack of adoption of F/OSS
 * Usability and Open Source Software advocates a usability reporting tool like crash reporting
+* Definitions of Usability
+F/OSS developers do not agree on a single definition of usability. Some definitions proposed are:
+** Effectiveness
+*** Accuracy, Completeness, Productivity
+** Efficiency
+*** Learning Time, Intuitiveness, Resources Spent
+** Satisfaction
+*** Attitude to System, Entertainment Value
+** Technical Property - Functionality Provided

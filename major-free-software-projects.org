@@ -30,6 +30,7 @@ Major Free/Open Source Software Projects
 ** The vision is to become a high-end graphics application
 ** Often compared unfavorably to Photoshop
 ** There are many variants of GIMP
+** GTK came from GIMP, and GTK is the basis for GNOME
 ** GIMP was used to draw the original Tux
 * Blender
 ** Blender is a 3D graphics application similar to 3D studio

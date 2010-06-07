@@ -12,6 +12,9 @@ Characteristic Development Practices in the F/OSS Community
 ** Reputation
 ** Contribution/Philanthropy
 ** Career Advancement
+*** This may be particularly valuable for usability experts
+**** since there are few in open source, those who get involved may be able to have more impact
+**** however, there are some barriers they have to get past (described elsewhere)
 ** Ideological Beliefs
 *** Freedom of Expression
 *** Freedom of Choice
