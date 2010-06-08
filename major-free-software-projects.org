@@ -30,8 +30,23 @@ Major Free/Open Source Software Projects
 ** The vision is to become a high-end graphics application
 ** Often compared unfavorably to Photoshop
 ** There are many variants of GIMP
-** GTK came from GIMP, and GTK is the basis for GNOME
+** GTK+ came from GIMP, and GTK+ is the basis for GNOME
 ** GIMP was used to draw the original Tux
+* GTK+
+** GTK+ came from GIMP, and GTK+ is the basis for GNOME
+** GTK+ is a cross platform widget toolkit for creating graphical user interfaces
+** One of the most popular widget toolkits for the X window system
+** Uses different display engines to try to have a native look and feel
+** Uses a non-standard object system
+** A programming language, Vala, was developed to make working with that object system less onerous
+* Qt
+** A cross-platform application development framework for developing GUI programs
+** Similar in nature to GTK+
+** Written in C++, but like GTK+, builds in non-standard features
+** A preprocessor is used to accomplish the non-standard features
+** Was proprietary on Windows and Mac OS X at one point
+** It is now available under the LGPL
+** To prevent Qt from being dominant, GNOME was started, which uses GTK+
 * Blender
 ** Blender is a 3D graphics application similar to 3D studio
 ** Available on a number of operating systems
@@ -58,3 +73,18 @@ Major Free/Open Source Software Projects
 ** When multiple potential solutions exist, the core developer usually forwards options to the mailing list to get feedback
 ** Each developer does their own testing
 ** Changes are either committed immediately, then reviewed, or posted to the mailing list as a patch
+* OpenOffice
+** Currently undergoing a major usability project
+** They cite many problems with the interface
+*** The interface is seen as being "outdated"
+*** They make repeated references to the interface being ugly or unappealing
+*** I think they are approaching this the wrong way, "ugliness" is probably not a major usability factor
+*** I would prefer to see a more positive motivation for the project rather than a self-deprecating one
+** It's good that they are persuing this ut their user surveys haven't been updated in a while
+* Mono
+** Attempt to create a free implementation of .NET
+** Mostly complete, but not all areas are stable and there are some missing pieces
+** There are concerns that some parts of .NET and/or C# could be patented by Microsoft
+** Some argue against supporting .NET since it could put free software projects at risk if Microsoft exercises patents against .NET or C# projects
+** Novell's controversial patent deal covers Mono, but only for Novell's customers
+

@@ -33,6 +33,7 @@ F/OSS and Usability
 *** Their description of the issues may be vague, such as "I've tried X and Y, and Y is better."
 ** Some F/OSS developers may not want a usability expert involved, out of concern that the involvement of an expert may override the democratic decision making process of the project
 ** Usability recommendations may not fit well within the short iterations favored by some F/OSS projects
+** Some developers resent "drive by" usability reviews
 * Why F/OSS Usability tends to lag
 ** Volunteer-produced software in general tends to have this property
 ** Weak incentives for increased usability
@@ -67,3 +68,12 @@ F/OSS developers do not agree on a single definition of usability. Some definiti
 ** Satisfaction
 *** Attitude to System, Entertainment Value
 ** Technical Property - Functionality Provided
+* Current F/OSS Usability Practices
+** GNOME Human Interface Guidelines
+*** The guideline document itself does not seem to have very high usability - I want one scrollable document, rather than a plethora of pages I have to constantly click through
+*** Consists of a series of general guidelines to help developers produce usable interfaces
+*** Intended to make things easier for developers, rather than imposing additional burdens of usability
+*** Some valuable and non-obvious advice
+*** Has some good notes about icons in the notification area - these often proliferate and the GNOME guidelines advise to reserve the notification area for temporary notifications
+*** Some GNOME applications use conventions that the guide recommends against
+*** One of the pieces of advice that struck a chord with me is the choices of color - I have often been guilty of using color to distinguish elements, particularly green and red
